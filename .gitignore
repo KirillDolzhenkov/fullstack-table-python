@@ -44,8 +44,6 @@ client/.env.development.local
 client/.env.test.local
 client/.env.production.local
 client/.cache/
-client/public/
-client/src/
 client/yarn.lock
 client/package-lock.json
 
