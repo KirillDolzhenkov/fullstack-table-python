@@ -18,7 +18,7 @@ export const TablePage = () => {
   return (
     <div className="container mx-auto my-4">
       <h1 className="mb-4 text-2xl font-bold">Таблица: {tableName}</h1>
-      {data ? <Table data={data} /> : <div>Данные отсутствуют</div>}
+      {data && data.length > 0 ? <Table data={data} /> : <div>Данные отсутствуют</div>}
     </div>
   );
 };
